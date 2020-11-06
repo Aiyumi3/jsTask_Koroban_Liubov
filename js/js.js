@@ -2,7 +2,7 @@ function task() {
     const strDate = prompt('enter year.month.day : ', ' ');
     let dateSplit = strDate.split('.');
 
-    let d = new Date(dateSplit[0], dateSplit[1]-1, dateSplit[2]);
+    let d = new Date(dateSplit[0], dateSplit[1]-1, dateSplit[2]-6);
 
     const n1 = 500;
     const n2 = 5;
